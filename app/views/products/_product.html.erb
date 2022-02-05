@@ -5,6 +5,13 @@
       <h4><%= product.name %></h4>
     <% end %>
   </header>
+
+  <% if product.quantity.zero? %>
+    <aside class="sold-out">
+      SOLD OUT!
+    </aside>
+  <% end %>
+
   <p class="description">
     <%= product.description %>
   </p>
