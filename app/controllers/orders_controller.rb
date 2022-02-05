@@ -2,6 +2,7 @@ class OrdersController < ApplicationController
 
   def show
     @order = Order.find(params[:id])
+    @order_items = order_items
   end
 
   def create
@@ -20,6 +21,13 @@ class OrdersController < ApplicationController
   end
 
   private
+
+  def order_items
+    @order.line_items.each do |item|
+      product = item[:product]
+      quantity = item[:quantity]
+    end
+  end
 
   def empty_cart!
     # empty hash means no products in cart :)
