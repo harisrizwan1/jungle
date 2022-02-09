@@ -33,3 +33,27 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Stripe
 
 ## Screenshots
+
+### Homepage
+
+![home page](https://github.com/harisrizwan1/jungle/blob/master/docs/home.PNG?raw=true)
+
+### Details
+
+![details](https://github.com/harisrizwan1/jungle/blob/master/docs/details.PNG?raw=true)
+
+### Cart
+
+![cart](https://github.com/harisrizwan1/jungle/blob/master/docs/cart.PNG?raw=true)
+
+### Checkout
+
+![checkout](https://github.com/harisrizwan1/jungle/blob/master/docs/checkout.PNG?raw=true)
+
+### Admin Dashboard
+
+![admin dashboard](https://github.com/harisrizwan1/jungle/blob/master/docs/admin_dash.PNG?raw=true)
+
+### Admin Products
+
+![admin products](https://github.com/harisrizwan1/jungle/blob/master/docs/admin_prod.PNG?raw=true)
